@@ -1,7 +1,7 @@
 // Import necessary libraries and modules
 import axios from 'axios';
 import Notiflix from 'notiflix';
-import { NewsApi } from './js/pics-api';
+import { NewsApi } from './src/js/pics-api';
 import SimpleLightbox from "simplelightbox";
 import "simplelightbox/dist/simple-lightbox.min.css";
 
