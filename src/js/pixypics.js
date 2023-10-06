@@ -1,7 +1,7 @@
 
 import axios from 'axios';
 import Notiflix from 'notiflix';
-import { fetchImages, page, per_page, q } from './pixyapi';
+import { fetchImages, per_page, q } from './pixyapi';
 import SimpleLightbox from "simplelightbox";
 import "simplelightbox/dist/simple-lightbox.min.css";
 
