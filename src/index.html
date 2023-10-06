@@ -9,9 +9,30 @@
     <script type="module" src="./index.js"></script>
   </head>
   <body>
-    <header></header>
-    <main></main>
-    <footer></footer>
+    <header>
+      <section id="image-list">
+        <h1 class="visually-hidden">Image Search</h1>
+        <form class="search-form" id="search-form">
+          <input
+            class="input"
+            type="text"
+            name="searchQuery"
+            autocomplete="off"
+            placeholder="Search images..."
+          />
+          <button class="btn-sub" type="submit">Search</button>
+        </form>
+      </section>
+    </header>
+    <main>
+      <div class="gallery">
+        <!-- Image cards -->
+      </div>
+      <div id="loader" class="loader visually-hidden"></div>
+    </main>
+    <footer>
+      <button type="button" class="load-more visually-hidden">Load more</button>
+    </footer>
     <include scr="./src/partials/gallery.html"></include>
   </body>
 </html>
